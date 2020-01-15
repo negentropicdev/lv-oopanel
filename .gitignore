@@ -15,3 +15,6 @@
 *.aliases
 *.lvlps
 .cache/
+
+#G Package Manager
+/gpm_packages
