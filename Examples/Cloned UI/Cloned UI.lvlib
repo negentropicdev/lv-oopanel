@@ -4,6 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536895490</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Manager.lvclass" Type="LVClass" URL="../Manager/Manager.lvclass"/>
-	<Item Name="Panel.lvclass" Type="LVClass" URL="../Panel/Panel.lvclass"/>
+	<Item Name="Cloned Panel.lvclass" Type="LVClass" URL="../Cloned Panel/Cloned Panel.lvclass"/>
+	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>

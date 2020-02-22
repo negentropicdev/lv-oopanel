@@ -10,8 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="OOPanel.lvlib" Type="Library" URL="../source/OOPanel/OOPanel.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Example" Type="Folder">
+			<Item Name="Cloned UI" Type="Folder">
+				<Item Name="Cloned UI.lvlib" Type="Library" URL="../Examples/Cloned UI/Cloned UI.lvlib"/>
+			</Item>
+			<Item Name="SubPanels" Type="Folder">
+				<Item Name="SubPanels.lvlib" Type="Library" URL="../Examples/SubPanels/SubPanels.lvlib"/>
+			</Item>
+		</Item>
+		<Item Name="OOPanel.lvlib" Type="Library" URL="../OOPanel/OOPanel.lvlib"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
