@@ -11,6 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Example" Type="Folder">
+			<Item Name="Array" Type="Folder">
+				<Item Name="Array Example.lvlib" Type="Library" URL="../Examples/Array/Array Example.lvlib"/>
+			</Item>
 			<Item Name="Cloned UI" Type="Folder">
 				<Item Name="Cloned UI.lvlib" Type="Library" URL="../Examples/Cloned UI/Cloned UI.lvlib"/>
 			</Item>
@@ -23,7 +26,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
