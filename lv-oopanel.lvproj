@@ -17,6 +17,9 @@
 			<Item Name="Cloned UI" Type="Folder">
 				<Item Name="Cloned UI.lvlib" Type="Library" URL="../Examples/Cloned UI/Cloned UI.lvlib"/>
 			</Item>
+			<Item Name="Display As" Type="Folder">
+				<Item Name="Display As.lvlib" Type="Library" URL="../Examples/Display As/Display As.lvlib"/>
+			</Item>
 			<Item Name="SubPanels" Type="Folder">
 				<Item Name="SubPanels.lvlib" Type="Library" URL="../Examples/SubPanels/SubPanels.lvlib"/>
 			</Item>
