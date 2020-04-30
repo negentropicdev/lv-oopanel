@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20006027">
+<Project Type="Project" LVVersion="18008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -16,6 +16,9 @@
 			</Item>
 			<Item Name="Cloned UI" Type="Folder">
 				<Item Name="Cloned UI.lvlib" Type="Library" URL="../Examples/Cloned UI/Cloned UI.lvlib"/>
+			</Item>
+			<Item Name="Display As" Type="Folder">
+				<Item Name="Display As.lvlib" Type="Library" URL="../Examples/Display As/Display As.lvlib"/>
 			</Item>
 			<Item Name="SubPanels" Type="Folder">
 				<Item Name="SubPanels.lvlib" Type="Library" URL="../Examples/SubPanels/SubPanels.lvlib"/>
